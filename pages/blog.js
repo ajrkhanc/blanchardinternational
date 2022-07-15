@@ -3,10 +3,10 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-   const res = await fetch('https://blanchard-admin.herokuapp.com/api/posts')
+   const res = await fetch('https://blanchard-admins.herokuapp.com/api/posts')
    const posts = await res.json()
 
-   const cat = await fetch('https://blanchard-admin.herokuapp.com/api/categories')
+   const cat = await fetch('https://blanchard-admins.herokuapp.com/api/categories')
    const cats = await cat.json()
 
    return {

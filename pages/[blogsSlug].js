@@ -17,18 +17,18 @@ import  moment from 'moment'
   
 
 export async function getServerSideProps(context) {
-   const post5 = await fetch('https://blanchard-admin.herokuapp.com/api/posts')
+   const post5 = await fetch('https://blanchard-admins.herokuapp.com/api/posts')
    const posts5 = await post5.json()
 
-   const cat = await fetch('https://blanchard-admin.herokuapp.com/api/categories')
+   const cat = await fetch('https://blanchard-admins.herokuapp.com/api/categories')
    const cats = await cat.json()
 
 
    const posturl = context.params.blogsSlug;
-   const res = await fetch(`https://blanchard-admin.herokuapp.com/api/post/${posturl}`)
+   const res = await fetch(`https://blanchard-admins.herokuapp.com/api/post/${posturl}`)
    const posts = await res.json()
 
-   const getfeedback = await fetch(`https://blanchard-admin.herokuapp.com/api/posts/feed/${posturl}`)
+   const getfeedback = await fetch(`https://blanchard-admins.herokuapp.com/api/posts/feed/${posturl}`)
    console.log(getfeedback)
    const postfeedback = await getfeedback.json()
 
