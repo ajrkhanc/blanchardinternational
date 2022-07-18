@@ -100,7 +100,7 @@ export default function HybridWorkplaces() {
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
-                                 <option value="Four Coaching Essential Skills at Hybrid Workplace: 29th April, 2022">Four Coaching Essential Skills at Hybrid Workplace: 29th April, 2022</option>
+                                 <option value="The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: 26th August, 2022">The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: 26th August, 2022</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
@@ -164,7 +164,7 @@ export default function HybridWorkplaces() {
                </div>
                <div className="col-lg-6">
                   <div className="">
-                     <img src="/assets/img/four-coaching.jpg" alt="Images"/>
+                     <img src="/assets/img/coaching-webinar.jpg" alt="Images"/>
                   </div>
                </div>
             </div>

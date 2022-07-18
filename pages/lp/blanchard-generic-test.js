@@ -199,10 +199,10 @@ export default function BlanchardGenericLPNew() {
                             <p className="text-justify">
                             There is an imminent need to hone the skills of the employees as they will proliferate long-term benefits for the company.
                             </p>
-                            <p className="text-justify maginbottom10">
+                            <p className="text-justify maginbottom10 pb-15">
                             Blanchard Research and Training develop the leadership capabilities of people through our time-tested training modules that are suitable for each level of their leadership journey. Our consultants have 1000+ years of accumulated professional experience and are located across the region.
                             </p>
-                            
+                           
                             <ul className="point6">
                                 <li>Engaged employees market your company</li>
                                 <li>Lesser attrition of employees, leading to longevity and loyalty</li>

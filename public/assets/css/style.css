@@ -6213,6 +6213,7 @@ img {
     color: #fff;
     line-height: 50px;
     border-radius: 5px;
+    z-index: 999999999999999999;
 }
 .footer-widget .newsletter-form .submit-btn:hover {
     background-color: #0e1b31;
