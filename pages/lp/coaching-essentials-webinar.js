@@ -47,7 +47,7 @@ export default function HybridWorkplaces() {
     return (
         <>
         <Head>
-            <title>Four Coaching Essential Skills at Hybrid Workplace</title>
+            <title>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</title>
             <meta name="description" content="As a leader, every interaction is an opportunity to strengthen and develop your people. Coaching is not a checklist task, it's a mindset, great coaches don’t see coaching as a “to-do.”" />
          </Head>
 
@@ -56,7 +56,7 @@ export default function HybridWorkplaces() {
                 <div className='row'>
                    <div className='col-sm-6'>
                         <div className="inner-title text-left">
-                            <h3>Four Coaching Essential Skills at Hybrid Workplace</h3>                            
+                            <h3>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</h3>                            
                         </div>
                    </div>
                    <div className='col-sm-6'>
@@ -100,7 +100,7 @@ export default function HybridWorkplaces() {
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
-                                 <option value="The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: 26th August, 2022">The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: 26th August, 2022</option>
+                                 <option value="The Manager Who Can Coach: 26th August, 2022">The Manager Who Can Coach: 26th August, 2022</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
