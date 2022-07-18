@@ -2,6 +2,34 @@ import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
+   const registerUser = async event => {
+      event.preventDefault()
+      document.getElementById("submitbuttonform").value = "Submitting form...."
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+          console.log(this.responseText);
+      }
+      xhttp.open("Post", 'https://bmelectrician.com/blanchard/wp-json/contact-form-7/v1/contact-forms/30937/feedback');
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+      xhttp.onreadystatechange = function () {
+          if (xhttp.readyState == 4) {
+              if (xhttp.status == 200) {
+                  document.getElementById("showlabel").innerHTML = "Thank you for submitting your details.";
+
+                  document.getElementById("showlabel").style.display = "block";
+                  window.setTimeout(function() {
+                     window.location.href = "/thank-you-lp"
+                  }, 3000);
+
+              } else {
+                  alert('There was a problem with the request.');
+              }
+          }
+      };
+      xhttp.send("your-email=" + event.target.fmail.value)
+
+  }
+
     return (
         <footer className="footer-area footer-bg2">
          <div className="footer-top pt-100 pb-70">
@@ -139,22 +167,23 @@ function Footer() {
                            </li>
                            <li>
                               <i className="flaticon-call"></i>
-                              <div className="title">Phone:</div>
+                              <div className="title"></div>
                               <a href="tel:1800-102-1345"> 1800-102-1345 </a>
                            </li>
                            <li>
                               <i className="flaticon-email"></i>
-                              <div className="title">Mail:</div>
+                              <div className="title"></div>
                               <a href="mailto:blanchard.info@byldgroup.com"><span className="__cf_email__" data-cfemail="ff979a939390bf91968790d19c9092">blanchard.info@byldgroup.com</span></a>
                            </li>
                         </ul>
-                        <form className="newsletter-form" data-toggle="validator" method="POST">
-                           <input type="email" className="form-control" placeholder="Email Address" name="EMAIL" required autocomplete="off"/>
+                        <form id="footerformreset" className="newsletter-form" onSubmit={registerUser}>
+                           <input type="email" className="form-control" placeholder="Email Address" name="fmail" required autocomplete="off"/>
                            <button type="submit" className="submit-btn btn-bg1">
                            Subscribe
                            </button>
-                           <div id="validator-newsletter" className="form-result"></div>
+                           <p id="showlabel" style={{ display: "none" }}></p>
                         </form>
+                        
                      </div>
                   </div>
                </div>
