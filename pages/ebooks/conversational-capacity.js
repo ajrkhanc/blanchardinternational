@@ -60,7 +60,7 @@ function EbooksKB() {
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
                     
-                    <h3 className='titleh2'>CONVERSATIONAL CAPACITY®—GETTING TO THE SWEET SPOT OF EFFECTIVE COMMUNICATION</h3>
+                    <h3 className='titleh2'>CONVERSATIONAL CAPACITY<sup>®</sup>—GETTING TO THE SWEET SPOT OF EFFECTIVE COMMUNICATION</h3>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  
