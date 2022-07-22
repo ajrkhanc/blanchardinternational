@@ -68,25 +68,25 @@ export default function BMEwebin() {
                      <div className="row">
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="name" id="name" className="form-control" required="" data-error="Please Enter Your Name" placeholder="Your Name*"/>
+                              <input type="text" name="name" id="name" className="form-control" required data-error="Please Enter Your Name" placeholder="Your Name*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="email" name="email" id="email" className="form-control" required="" data-error="Please Enter Your Email" placeholder="Your Email*"/>
+                              <input type="email" name="email" id="email" className="form-control" required data-error="Please Enter Your Email" placeholder="Your Email*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="phone_number" id="phone_number" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*"/>
+                              <input type="text" name="phone_number" id="phone_number" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="companyName" id="companyName" className="form-control" required="" data-error="Please Enter Company Name" placeholder="Company Name*"/>
+                              <input type="text" name="companyName" id="companyName" className="form-control" required data-error="Please Enter Company Name" placeholder="Company Name*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
@@ -106,7 +106,7 @@ export default function BMEwebin() {
                            </div>
                         </div>
                         
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                            <div className="form-group">                              
                               <select className="form-control" name="referredby" required>
                               <option value="">Referred By</option>
