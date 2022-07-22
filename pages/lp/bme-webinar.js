@@ -96,7 +96,7 @@ export default function BMEwebin() {
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 d-none">
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
@@ -107,10 +107,11 @@ export default function BMEwebin() {
                         </div>
                         
                         <div className="col-lg-6">
-                           <div className="form-group">
-                              <label>Referred By</label>                              
-                              <select className="form-control" name="referredby">                                 
-                                 <option value="Email">Email</option>                                 
+                           <div className="form-group">                              
+                              <select className="form-control" name="referredby" required>
+                              <option value="">Referred By</option>
+                                 <option value="Email">Email</option>
+                                 <option value="Social media">Social media</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
