@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 
-export default function HybridWorkplaces() {
+export default function BMEwebin() {
    const Submitdata = async event => {
 
       document.getElementById("submitbuttonform").value = "Submitting form...."
@@ -11,7 +11,7 @@ export default function HybridWorkplaces() {
       xhttp.onload = function () {
          // console.log(this.responseText.status);
       }
-      xhttp.open("Post", 'https://bmelectrician.com/blanchard/wp-json/contact-form-7/v1/contact-forms/30378/feedback');
+      xhttp.open("Post", 'https://bmelectrician.com/blanchard/wp-json/contact-form-7/v1/contact-forms/30383/feedback');
       xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
       xhttp.onreadystatechange = function () {
          if (xhttp.readyState == 4) {
@@ -47,8 +47,8 @@ export default function HybridWorkplaces() {
     return (
         <>
         <Head>
-            <title>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</title>
-            <meta name="description" content="As a leader, every interaction is an opportunity to strengthen and develop your people. Coaching is not a checklist task, it's a mindset, great coaches don’t see coaching as a “to-do.”" />
+            <title>Will your new managers SINK or SWIM?</title>
+            <meta name="description" content="" />
          </Head>
 
         <div id="register-today" className="inner-banner online-learning-headbg">
@@ -56,7 +56,7 @@ export default function HybridWorkplaces() {
                 <div className='row'>
                    <div className='col-sm-6'>
                         <div className="inner-title text-left">
-                            <h3>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</h3>                            
+                            <h3>Will your new managers SINK or SWIM?</h3>                            
                         </div>
                    </div>
                    <div className='col-sm-6'>
@@ -68,25 +68,25 @@ export default function HybridWorkplaces() {
                      <div className="row">
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="name" id="name" className="form-control" required="" data-error="Please Enter Your Name" placeholder="Your Name*"/>
+                              <input type="text" name="name" id="name" className="form-control" required data-error="Please Enter Your Name" placeholder="Your Name*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="email" name="email" id="email" className="form-control" required="" data-error="Please Enter Your Email" placeholder="Your Email*"/>
+                              <input type="email" name="email" id="email" className="form-control" required data-error="Please Enter Your Email" placeholder="Your Email*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="phone_number" id="phone_number" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*"/>
+                              <input type="text" name="phone_number" id="phone_number" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="companyName" id="companyName" className="form-control" required="" data-error="Please Enter Company Name" placeholder="Company Name*"/>
+                              <input type="text" name="companyName" id="companyName" className="form-control" required data-error="Please Enter Company Name" placeholder="Company Name*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
@@ -96,21 +96,22 @@ export default function HybridWorkplaces() {
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 d-none">
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
-                                 <option value="The Manager Who Can Coach: 26th August, 2022">The Manager Who Can Coach: 26th August, 2022</option>
+                                 <option value="Will your new managers SINK or SWIM? (Blanchard Management Essentials): 05th August, 2022">Will your new managers SINK or SWIM? (Blanchard Management Essentials): 05th August, 2022</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
                         
-                        <div className="col-lg-6">
-                           <div className="form-group">
-                              <label>Referred By</label>                              
-                              <select className="form-control" name="referredby">                                 
-                                 <option value="Email">Email</option>                                 
+                        <div className="col-lg-12">
+                           <div className="form-group">                              
+                              <select className="form-control" name="referredby" required>
+                              <option value="">Referred By</option>
+                                 <option value="Email">Email</option>
+                                 <option value="Social media">Social media</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
@@ -149,22 +150,17 @@ export default function HybridWorkplaces() {
                   <div className="what-did-content what-did-content-rs">
                      <div className="section-title-two pt-20">
                         <p className="text-justify">
-                        As a leader, every interaction is an opportunity to strengthen and develop your people. Coaching is not a checklist task, it's a mindset, great coaches don’t see coaching as a “to-do.”
+                        The workplace has changed dramatically. Earlier there was a norm of top-down leadership, and now in the new normal, there is a focus on outcome and optimal productivity.
                         </p>
-                        
-                        <h4>Great coaches hone a set of four effective communication skills:</h4>
-                        <ul className="point2">
-                            <li>1. Asking effective questions</li>
-                            <li>2. Actively listening</li>
-                            <li>Giving competent, relevant feedback</li>
-                            <li>4. Confronting</li>                                    						 
-                        </ul>
+                        <p className="text-justify">
+                        At Blanchard India, we have a transformational leadership training program for new managers and for those who want to sharpen their managerial skills, build positive relationships with team members, inspire engagement, and drive productivity.
+                        </p>
                      </div>                     
                   </div>
                </div>
                <div className="col-lg-6">
                   <div className="">
-                     <img src="/assets/img/coaching-webinar.jpg" alt="Images"/>
+                     <img src="/assets/img/bme-webinar.jpg" alt="Images"/>
                   </div>
                </div>
             </div>
@@ -176,19 +172,22 @@ export default function HybridWorkplaces() {
             <div className="row row-eq-height">
                <div className="col-lg-6 bgshd">
                  <div className='pt-20 pb-25'> 
-                    <p className="text-justify">As a coach, you’ll invest a lot of your valuable time asking relevant questions and actively listening. These are the dominant skills of a coach. Why? Because people are more likely to get committed to their own ideas than yours.</p>
-                    <p className="text-justify">By integrating coaching skills into your learning and training journeys, you get highly effective managers who know how to have powerful coaching conversations that create connection, collaboration, increase trust, and help their team members perform at their best.</p>
+                    <h2 className="titleh2 text-left">Today’s Workplace and the Three Secrets</h2>
+                    <p className="text-justify">As we all know, the past two years have seen widespread evolution in the world of work, brought on by the Covid-19 pandemic. Like never before, organizations and entire industries have been forced to transform the way they do business in order to advance in the new dynamic norms of 2022.</p>
+                    <p className="text-justify">Let’s take a look at those familiar Three Secrets—and how they are applicable in today’s ever-changing workplace.</p>
                  </div>
                </div>
                <div className="col-lg-6 bgleftcol16">
                   <div className="text-left pt-20 pb-25">
                   <p>
                   <ol className="colorwhitlist">
-                    <li>Increase Learning and Growth: Acquiring coaching skills allows a manager to pave a path for their employees that leads to progress through a learning process.</li>
-                    <li>Create Independent Problem-Solvers: Coaching managers ensures that their team members are independent and have problem-solving skills, which is the main foundation of a growing organization.</li>
-                    <li>PRESERVE YOUR TALENT: Having coached employees in your company encourages engagement, dedication, and produces loyalty amongst employees.</li>
-                    <li>DEVELOP YOUR FUTURE LEADERS: Providing coaching for your managers ensures that their employees receive adequate skill sets to become your future leaders.</li>
+                    <li>One Minute Goals: It’s the best way for everyone to be clear on their responsibilities, and then both parties periodically check on progress.</li>
+                    <li>One Minute Praisings: Let people know what they did—be specific. Encourage them to do more of the same, and make it clear you have confidence in them and support their success.</li>
+                    <li>One Minute Re-Directs: If someone makes a significant mistake or is simply off track, you may need to deliver a One Minute Re-Direct. If the person’s career objective is clear, redirect them as soon as possible after the mistake. Confirm facts and review the mistake together—be specific.</li>
                   </ol>
+                  </p>
+                  <p>
+                      The Three Secrets of the One Minute Manager still provide emerging managers with the powerful tools they need to build great relationships and achieve both personal and professional objectives.
                   </p>
                   </div>
                </div>
