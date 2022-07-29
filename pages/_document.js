@@ -45,7 +45,7 @@ class MyDocument extends Document {
 
 
    
-      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26893767-1"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26893767-1"></script>
       
       <script
             dangerouslySetInnerHTML={{
@@ -57,7 +57,7 @@ class MyDocument extends Document {
               gtag('config', 'UA-26893767-1');
           `,
             }}
-          /> */}
+          />
           
 
         {/* Global site tag (gtag.js) - Google Ads: 370688250 */}
