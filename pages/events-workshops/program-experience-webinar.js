@@ -67,9 +67,22 @@ export default function ProgramExperienceAndWebinars() {
                
                <div className="col-sm-4">
                      <div className="choose-card">
+                        <img src="/assets/img/webi2.jpg" alt="Images"/>
+                        <h3>Will your new managers SINK or SWIM?</h3>
+                        <p className="text-justify">August 5th, 2022</p>
+                        <div className='row text-center eventsbottomarea2'>
+                           <div className='col-sm-12'>
+                              <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div className="col-sm-4">
+                     <div className="choose-card">
                         <img src="/assets/img/webi3.jpg" alt="Images"/>
-                        <h3>Prepare Your Leaders to Lead Situationally: Breakthrough for a Hybrid Workplace (The SLII Experience™ - Virtual)</h3>
-                        <p className="text-justify">July 8th, 2022</p>
+                        <h3>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</h3>
+                        <p className="text-justify">August 26th, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
@@ -81,8 +94,8 @@ export default function ProgramExperienceAndWebinars() {
                <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/webi1.jpg" alt="Images"/>
-                        <h3>Conversations About Change: Increasing Your Conversational Capacity for a Successful Change Initiatives</h3>
-                        <p className="text-justify">July 22nd, 2022</p>
+                        <h3>When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?</h3>
+                        <p className="text-justify">September 2nd, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
@@ -90,12 +103,12 @@ export default function ProgramExperienceAndWebinars() {
                         </div>
                      </div>
                   </div>
-                  
+
                   <div className="col-sm-4">
                      <div className="choose-card">
-                        <img src="/assets/img/webi2.jpg" alt="Images"/>
-                        <h3>Will your new managers SINK or SWIM?</h3>
-                        <p className="text-justify">August 5th, 2022</p>
+                        <img src="/assets/img/webi1.jpg" alt="Images"/>
+                        <h3>Create Creative & Innovative Workforce through Self Leadership Skills</h3>
+                        <p className="text-justify">September 16th, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
@@ -157,10 +170,10 @@ export default function ProgramExperienceAndWebinars() {
                            <label>Pick up any Slot*</label>
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                               <option value="">---</option>
-                              <option value="Prepare Your Leaders to Lead Situationally: Breakthrough for a Hybrid Workplace (The SLII Experience™ - Virtual) July 8th, 2022">Prepare Your Leaders to Lead Situationally: Breakthrough for a Hybrid Workplace (The SLII Experience™ - Virtual) July 8th, 2022</option>
-                              <option value="Conversations About Change: Increasing Your Conversational Capacity for a Successful Change Initiatives: July 22nd, 2022">Conversations About Change: Increasing Your Conversational Capacity for a Successful Change Initiatives: July 22nd, 2022</option>
                               <option value="Will your new managers SINK or SWIM?: August 5th, 2022">Will your new managers SINK or SWIM?: August 5th, 2022</option>
-                              
+                              <option value="The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: August 26th, 2022">The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: August 26th, 2022</option>
+                              <option value="When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?: September 2nd, 2022">When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?: September 2nd, 2022</option>
+                              <option value="Create Creative & Innovative Workforce through Self Leadership Skills: September 16th, 2022">Create Creative & Innovative Workforce through Self Leadership Skills: September 16th, 2022</option>
                            </select>
                         </div>
                      </div>

@@ -37,38 +37,11 @@ export default function EventsAndWorkshop() {
             <div className="what-did-left-content">
                <div className="row row-eq-height eventsandworkshopbox">
 
-              
-                  <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Team Leadership - Virtual</h3>
-                        <p>July 26th, 2022</p>
-                        <div className='row eventsbottomarea2 text-center'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/workshopformain2.jpg" alt="Images"/>                       
-                        <h3>The SLII Experience™</h3>
-                        <p>August 1st - 2nd, 2022</p>
-                        <div className='row eventsbottomarea2 text-center'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  
                    <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
                         <h3>The SLII Experience™ T4T</h3>
-                        <p>August 1st - 4th, 2022</p>
+                        <p>August 3rd - 4th, 2022</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -89,8 +62,7 @@ export default function EventsAndWorkshop() {
                         </div>
                      </div>
                   </div>
-                  
-                  
+                 
                </div>
             </div>
             <div className='text-center'>                           
@@ -109,11 +81,24 @@ export default function EventsAndWorkshop() {
             <div className="what-did-left-content">
                <div className="row row-eq-height eventsandworkshopbox">
                    
-               <div className="col-sm-4">
+                  <div className="col-sm-4">
+                     <div className="choose-card">
+                        <img src="/assets/img/webi2.jpg" alt="Images"/>
+                        <h3>Will your new managers SINK or SWIM?</h3>
+                        <p className="text-justify">August 5th, 2022</p>
+                        <div className='row text-center eventsbottomarea2'>
+                           <div className='col-sm-12'>
+                              <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/webi3.jpg" alt="Images"/>
-                        <h3>Prepare Your Leaders to Lead Situationally: Breakthrough for a Hybrid Workplace (The SLII Experience™ - Virtual)</h3>
-                        <p className="text-justify">July 8th, 2022</p>
+                        <h3>The Manager Who Can Coach: Bringing Coaching Skills into Your Organization</h3>
+                        <p className="text-justify">August 26th, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
@@ -125,8 +110,8 @@ export default function EventsAndWorkshop() {
                <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/webi1.jpg" alt="Images"/>
-                        <h3>Conversations About Change: Increasing Your Conversational Capacity for a Successful Change Initiatives</h3>
-                        <p className="text-justify">July 22nd, 2022</p>
+                        <h3>When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?</h3>
+                        <p className="text-justify">September 2nd, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
@@ -134,12 +119,12 @@ export default function EventsAndWorkshop() {
                         </div>
                      </div>
                   </div>
-                  
+
                   <div className="col-sm-4">
                      <div className="choose-card">
-                        <img src="/assets/img/webi2.jpg" alt="Images"/>
-                        <h3>Will your new managers SINK or SWIM?</h3>
-                        <p className="text-justify">August 5th, 2022</p>
+                        <img src="/assets/img/webi1.jpg" alt="Images"/>
+                        <h3>Create Creative & Innovative Workforce through Self Leadership Skills</h3>
+                        <p className="text-justify">September 16th, 2022</p>
                         <div className='row text-center eventsbottomarea2'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
