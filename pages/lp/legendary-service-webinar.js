@@ -101,7 +101,7 @@ export default function HybridWorkplaces() {
                            <div className="form-group">                              
                               <select className="form-control" name="interest_in" required>
                                  <option value="">Program Name*</option>
-                                 <option value="The Manager Who Can Coach: 26th August, 2022">The Manager Who Can Coach: 26th August, 2022</option>
+                                 <option value="When It Comes to Customer Loyalty: 2nd September, 2022">When It Comes to Customer Loyalty: 2nd September, 2022</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
