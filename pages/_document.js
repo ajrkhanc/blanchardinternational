@@ -58,6 +58,8 @@ class MyDocument extends Document {
           `,
             }}
           />
+
+          
           
 
         {/* Global site tag (gtag.js) - Google Ads: 370688250 */}
@@ -100,7 +102,19 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
           <script src="/assets/js/jquery.min.js"></script>       
           <script src="/assets/js/meanmenu.js"></script>        
           <script src="/assets/js/custom.js"></script>
+       
 
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.addEventListener('load', function() {
+                if (document.referrer.indexOf('https://blanchardinternational.co.in/events-workshops/program-experience-webinar') != -1 && window.location.pathname == '/thank-you-lp') {
+                  gtag('event', 'conversion', {'send_to': 'AW-370688250/dx4gCOeRmtMDEPqB4bAB'});
+                }
+              });
+          `,
+            }}
+          />
         </body>
       </Html>
     )
