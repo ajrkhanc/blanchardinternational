@@ -73,7 +73,7 @@ function Nav() {
                                     <a href="/events-workshop" class="nav-link">EVENTS &amp; WORKSHOP
                                         <i class="bx bx-chevron-down"></i></a>
                                     <ul class="dropdown-menu" style={{ display: "none" }}>
-                                        <li class="nav-item">
+                                        <li class="nav-item d-none">
                                             <a href="/events-workshops/program-experience-webinar" class="nav-link">Program Experience &amp; Webinars</a>
                                         </li>
                                         <li class="nav-item">
@@ -138,7 +138,7 @@ function Nav() {
                               <i className='bx bx-chevron-down'></i></a>
                               </Link>
                               <ul className="dropdown-menu">
-                                 <li className="nav-item"><Link href="/events-workshops/program-experience-webinar"><a className="nav-link">Program Experience & Webinars</a></Link></li>
+                                 <li className="nav-item d-none"><Link href="/events-workshops/program-experience-webinar"><a className="nav-link">Program Experience & Webinars</a></Link></li>
                                  <li className="nav-item"><Link href="/events-workshops/virtual-public-workshop"><a className="nav-link">Virtual Public Workshop</a></Link></li>                                 
                               </ul>
                            </li>

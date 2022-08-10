@@ -72,7 +72,7 @@ export default function EventsAndWorkshop() {
       </div>
    </div>
 </div>
-<div className="what-did-area pb-40 pt-45 style2 themebg">
+<div className="what-did-area pb-40 pt-45 style2 themebg d-none">
    <div className="container">
       <div className="row align-items-center">
          <div className="col-lg-12">

@@ -31,5 +31,11 @@ module.exports = {
       permanent: true,
     },
 
+    {
+      source: '/events-workshops/program-experience-webinar1/',
+      destination: '/events-workshops',
+      permanent: true,
+    }
+
   ]
 }
