@@ -54,7 +54,7 @@ export default function ProgramExperienceAndWebinars() {
         <link rel="icon" href="/favicon.ico" />
         </Head>
             
-        <div className="what-did-area pb-40 pt-45 style2 themebg">
+  <div className="what-did-area pb-40 pt-45 style2 themebg d-none">
    <div className="container">
       <div className="row align-items-center">
          <div className="col-lg-12">
@@ -125,7 +125,7 @@ export default function ProgramExperienceAndWebinars() {
       </div>
    </div>
 </div>
-<div id="REQUEST" className="contact-area pt-45 pb-25">
+<div id="REQUEST" className="contact-area pt-45 pb-25 d-none">
    <div className="container">
       <div className="row">
          <div className="col-lg-12">
