@@ -102,7 +102,7 @@ export default function BlanchardManaE() {
                            <label>Interested In*</label>
                            <select name="interest_in" className="form-control" required>
                               <option value="">---Select---</option>
-                              <option value="Blanchard Management Essentials® Workshop 8th June 2022">Blanchard Management Essentials® Workshop 8th June 2022</option>
+                              <option value="Blanchard Management Essentials® Workshop 13th September 2022">Blanchard Management Essentials® Workshop 13th September 2022</option>
                            </select>
                            <div className="help-block with-errors"></div>
                         </div>
