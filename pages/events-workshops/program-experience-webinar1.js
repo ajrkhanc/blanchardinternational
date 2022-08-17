@@ -65,18 +65,7 @@ export default function ProgramExperienceAndWebinars() {
             <div className="what-did-left-content">
                <div className="row row-eq-height eventsandworkshopbox">
                
-               <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/webi2.jpg" alt="Images"/>
-                        <h3>Will your new managers SINK or SWIM?</h3>
-                        <p className="text-justify">August 5th, 2022</p>
-                        <div className='row text-center eventsbottomarea2'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/program-experience-webinar/#REQUEST" className="default-btn-two">RESGISTER NOW <i className="bx bx-right-arrow-alt"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+              
 
                   <div className="col-sm-4">
                      <div className="choose-card">
@@ -169,8 +158,7 @@ export default function ProgramExperienceAndWebinars() {
                         <div className="form-group">
                            <label>Pick up any Slot*</label>
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
-                              <option value="">---</option>
-                              <option value="Will your new managers SINK or SWIM?: August 5th, 2022">Will your new managers SINK or SWIM?: August 5th, 2022</option>
+                              <option value="">---</option>                              
                               <option value="The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: August 26th, 2022">The Manager Who Can Coach: Bringing Coaching Skills into Your Organization: August 26th, 2022</option>
                               <option value="When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?: September 2nd, 2022">When It Comes to Customer Loyalty, Is Your Business Flourishing or Failing?: September 2nd, 2022</option>
                               <option value="Create Creative & Innovative Workforce through Self Leadership Skills: September 16th, 2022">Create Creative & Innovative Workforce through Self Leadership Skills: September 16th, 2022</option>
