@@ -42,7 +42,7 @@ function EbooksKB() {
             "&designation=" + event.target.designation.value +
             "&referredby=" + event.target.referredby.value +
             "&your-message=" + event.target.leadsquared_Notes.value +
-            "&checkbox-640=" + event.target.chb1.value )
+            "&checkbox-640=" + event.target.chb1.value)
 
    }
 
