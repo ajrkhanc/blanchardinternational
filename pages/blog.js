@@ -102,35 +102,7 @@ export default function index({posts, cats}) {
                
                <div className="side-bar-widget">
                   <h3 className="title">Upcoming Workshops</h3>
-                 <div className="widget-popular-post">
-                     
-                     <article className="item">
-                        <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST" className="thumb">
-                           <span className="full-image cover bg1" role="img">
-                               <img src="/assets/img/workshop2.jpg" alt="Images" />
-                           </span>
-                        </a>
-                        <div className="info">
-                           <p><i className='bx bx-time'></i> June 8th, 2022</p>
-                           <h4 className="title-text">
-                              <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST">Blanchard Management Essentials - Virtual</a>
-                           </h4>
-                        </div>
-                     </article>
-                     
-                     <article className="item">
-                        <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST" className="thumb">
-                           <span className="full-image cover bg1" role="img">
-                               <img src="/assets/img/workshop3.jpg" alt="Images" />
-                           </span>
-                        </a>
-                        <div className="info">
-                           <p><i className='bx bx-time'></i> July 26th, 2022 </p>
-                           <h4 className="title-text">
-                              <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST">Team Leadership - Virtual</a>
-                           </h4>
-                        </div>
-                     </article>
+                 <div className="widget-popular-post">                     
 
                      <article className="item">
                         <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST" className="thumb">
@@ -139,9 +111,9 @@ export default function index({posts, cats}) {
                            </span>
                         </a>
                         <div className="info">
-                           <p><i className='bx bx-time'></i> August 1st - 2nd, 2022</p>
+                           <p><i className='bx bx-time'></i> September 13th, 2022</p>
                            <h4 className="title-text">
-                              <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST">The SLII Experience™</a>
+                              <a href="https://blanchardinternational.co.in/events-workshops/virtual-public-workshop#REQUEST">Blanchard Management Essentials - Virtual</a>
                            </h4>
                         </div>
                      </article>
@@ -149,7 +121,7 @@ export default function index({posts, cats}) {
                   </div>
                </div>
                
-               <div className="side-bar-widget">
+               <div className="side-bar-widget d-none">
                   <h3 className="title">Upcoming Webinar</h3>
                  <div className="widget-popular-post">                     
                      
